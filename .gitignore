@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+boards/_src/
+web/dist/
+actors/.durable-actors/
+actors/generated/
+results/*/
+!results/sample/
+!results/cache/
+results/LATEST
+*.log
