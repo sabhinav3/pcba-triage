@@ -1,4 +1,4 @@
-# pcba-triage
+# PCBA Triage
 
 **Netlist-aware failure triage for PCBA bring-up, with a fault-injection benchmark.**
 
