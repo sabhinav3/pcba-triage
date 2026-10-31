@@ -1,0 +1,32 @@
+# Board config for Easyduino RP2040 (Hanqaqa/Easyduino, "Raspberry Pi Pico 2040", rev in Makefile EASYDUINO_REV).
+# Net roles come from name regexes in core/triage/netlist.py; this file only overrides.
+board_id: rp2040_easyduino
+source: https://github.com/Hanqaqa/Easyduino  (Raspberry Pi Pico 2040/Easyduino_RP2040.kicad_pcb)
+
+roles:
+  "/LED_BUILT_IN1": gpio    # D4 anode, driven from GPIO25 through R14
+  "/LED_BUILT_IN2": gpio    # D3 anode, driven from GPIO23 through R13
+  "/LED_3V3": other         # power-on LED D2 from +3.3V through R12
+  "/RDIV": other            # VBUS-sense divider midpoint (R6/R7)
+  "/SW1_{PULL-UP}": other   # BOOTSEL button side of R15
+
+# Golden-board values for the behavioral model (unpowered DMM R-to-GND, steady-state load per rail).
+rails:
+  VBUS:    {nominal_v: 5.0, r_gnd: 15300,  load_ma: 0.33}   # sense divider to GND
+  VCC:     {nominal_v: 4.7, r_gnd: 120000, load_ma: 0.05}   # after D1 Schottky, LDO input
+  "+3.3V": {nominal_v: 3.3, r_gnd: 2200,   load_ma: 3.0}    # IO, flash standby, power LED D2
+  "+1V1":  {nominal_v: 1.1, r_gnd: 900,    load_ma: 0.0}    # RP2040 core (DVDD), internal VREG
+
+power_tree: []   # derived from pin names (VI/VO, A/K, VREG_IN/VREG_VOUT); add edges here if a board needs it
+
+supply: {net: VBUS, v: 5.0, i_limit_ma: 150}
+clock: {freq_hz: 12000000, tolerance_ppm: 30}
+mcu: U2
+core_ma: {app: 22.0, bootrom: 14.0, hung: 6.0}   # RP2040 core current by boot state
+
+# What the S7 firmware smoke test exercises (public: it is the test spec, not the fault).
+smoke_test:
+  uart_tx: /GPIO0
+  led_gpio: /GPIO25
+  led_node: /LED_BUILT_IN1
+  banner: "BOOT OK fw=1.0"

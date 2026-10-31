@@ -1,0 +1,4662 @@
+{
+ "board_id": "rp2040_easyduino",
+ "components": [
+  {
+   "ref": "C1",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 12.05,
+   "y": 35.4,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+1V1",
+     "x": 12.05,
+     "y": 34.92
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 12.05,
+     "y": 35.88
+    }
+   ]
+  },
+  {
+   "ref": "C2",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 8.45,
+   "y": 23.7,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+1V1",
+     "x": 8.45,
+     "y": 24.18
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 8.45,
+     "y": 23.22
+    }
+   ]
+  },
+  {
+   "ref": "C3",
+   "value": "1uF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 13.15,
+   "y": 23.9,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+1V1",
+     "x": 13.15,
+     "y": 24.38
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 13.15,
+     "y": 23.42
+    }
+   ]
+  },
+  {
+   "ref": "C4",
+   "value": "1uF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 14.15,
+   "y": 23.9,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 14.15,
+     "y": 24.38
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 14.15,
+     "y": 23.42
+    }
+   ]
+  },
+  {
+   "ref": "C5",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 15.15,
+   "y": 23.9,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 15.15,
+     "y": 24.38
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 15.15,
+     "y": 23.42
+    }
+   ]
+  },
+  {
+   "ref": "C6",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 15.3,
+   "y": 26.37,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 15.3,
+     "y": 26.85
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 15.3,
+     "y": 25.89
+    }
+   ]
+  },
+  {
+   "ref": "C7",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 15.95,
+   "y": 30.7,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 15.47,
+     "y": 30.7
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 16.43,
+     "y": 30.7
+    }
+   ]
+  },
+  {
+   "ref": "C8",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 11.05,
+   "y": 35.4,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 11.05,
+     "y": 34.92
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 11.05,
+     "y": 35.88
+    }
+   ]
+  },
+  {
+   "ref": "C9",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 4.475,
+   "y": 30.9,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 4.955,
+     "y": 30.9
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 3.995,
+     "y": 30.9
+    }
+   ]
+  },
+  {
+   "ref": "C10",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 6.475,
+   "y": 24.575,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 6.475,
+     "y": 25.055
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 6.475,
+     "y": 24.095
+    }
+   ]
+  },
+  {
+   "ref": "C11",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 9.45,
+   "y": 23.7,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 9.45,
+     "y": 24.18
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 9.45,
+     "y": 23.22
+    }
+   ]
+  },
+  {
+   "ref": "C12",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 10.45,
+   "y": 23.7,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 10.45,
+     "y": 24.18
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 10.45,
+     "y": 23.22
+    }
+   ]
+  },
+  {
+   "ref": "C13",
+   "value": "1uF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 17.5,
+   "y": 13.05,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 17.5,
+     "y": 13.53
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "VCC",
+     "x": 17.5,
+     "y": 12.57
+    }
+   ]
+  },
+  {
+   "ref": "C14",
+   "value": "1uF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 12.3,
+   "y": 13.05,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 12.3,
+     "y": 13.53
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 12.3,
+     "y": 12.57
+    }
+   ]
+  },
+  {
+   "ref": "C15",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 8.0,
+   "y": 18.3,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 8.0,
+     "y": 17.82
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 8.0,
+     "y": 18.78
+    }
+   ]
+  },
+  {
+   "ref": "C16",
+   "value": "27p",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 7.35,
+   "y": 40.3,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/Xin",
+     "x": 7.35,
+     "y": 40.78
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 7.35,
+     "y": 39.82
+    }
+   ]
+  },
+  {
+   "ref": "C17",
+   "value": "27p",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "x": 12.65,
+   "y": 40.05,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/XoutR",
+     "x": 12.65,
+     "y": 39.57
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 12.65,
+     "y": 40.53
+    }
+   ]
+  },
+  {
+   "ref": "D1",
+   "value": "D_Schottky",
+   "footprint": "Diode_SMD:D_SOD-123",
+   "x": 15.2,
+   "y": 9.6,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "A",
+     "net": "VBUS",
+     "x": 13.55,
+     "y": 9.6
+    },
+    {
+     "pin": "1",
+     "name": "K",
+     "net": "VCC",
+     "x": 16.85,
+     "y": 9.6
+    }
+   ]
+  },
+  {
+   "ref": "D2",
+   "value": "LED",
+   "footprint": "LED_SMD:LED_0402_1005Metric",
+   "x": 16.435,
+   "y": 16.45,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "A",
+     "net": "/LED_3V3",
+     "x": 15.95,
+     "y": 16.45
+    },
+    {
+     "pin": "1",
+     "name": "K",
+     "net": "GND",
+     "x": 16.92,
+     "y": 16.45
+    }
+   ]
+  },
+  {
+   "ref": "D3",
+   "value": "LED",
+   "footprint": "LED_SMD:LED_0402_1005Metric",
+   "x": 16.435,
+   "y": 17.45,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "A",
+     "net": "/LED_BUILT_IN2",
+     "x": 15.95,
+     "y": 17.45
+    },
+    {
+     "pin": "1",
+     "name": "K",
+     "net": "GND",
+     "x": 16.92,
+     "y": 17.45
+    }
+   ]
+  },
+  {
+   "ref": "D4",
+   "value": "LED",
+   "footprint": "LED_SMD:LED_0402_1005Metric",
+   "x": 16.435,
+   "y": 18.45,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "A",
+     "net": "/LED_BUILT_IN1",
+     "x": 15.95,
+     "y": 18.45
+    },
+    {
+     "pin": "1",
+     "name": "K",
+     "net": "GND",
+     "x": 16.92,
+     "y": 18.45
+    }
+   ]
+  },
+  {
+   "ref": "H1",
+   "value": "MountingHole",
+   "footprint": "MountingHole:MountingHole_2.2mm_M2",
+   "x": 3.99,
+   "y": 2.3,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": []
+  },
+  {
+   "ref": "H2",
+   "value": "MountingHole",
+   "footprint": "MountingHole:MountingHole_2.2mm_M2",
+   "x": 17.39,
+   "y": 2.3,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": []
+  },
+  {
+   "ref": "H3",
+   "value": "MountingHole",
+   "footprint": "MountingHole:MountingHole_2.2mm_M2",
+   "x": 3.99,
+   "y": 48.7,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": []
+  },
+  {
+   "ref": "H4",
+   "value": "MountingHole",
+   "footprint": "MountingHole:MountingHole_2.2mm_M2",
+   "x": 16.59,
+   "y": 48.7,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": []
+  },
+  {
+   "ref": "J1",
+   "value": "USB_C_Receptacle_USB2.0",
+   "footprint": "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV",
+   "x": 10.68,
+   "y": 3.375,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "A5",
+     "name": "CC1",
+     "net": "/CC1",
+     "x": 11.93,
+     "y": 7.1
+    },
+    {
+     "pin": "B5",
+     "name": "CC2",
+     "net": "/CC2",
+     "x": 8.93,
+     "y": 7.1
+    },
+    {
+     "pin": "A7",
+     "name": "D-",
+     "net": "/USB_DN",
+     "x": 10.43,
+     "y": 7.1
+    },
+    {
+     "pin": "B7",
+     "name": "D-",
+     "net": "/USB_DN",
+     "x": 11.43,
+     "y": 7.1
+    },
+    {
+     "pin": "A6",
+     "name": "D+",
+     "net": "/USB_DP",
+     "x": 10.93,
+     "y": 7.1
+    },
+    {
+     "pin": "B6",
+     "name": "D+",
+     "net": "/USB_DP",
+     "x": 9.93,
+     "y": 7.1
+    },
+    {
+     "pin": "A1",
+     "name": "GND",
+     "net": "GND",
+     "x": 13.88,
+     "y": 7.1
+    },
+    {
+     "pin": "A12",
+     "name": "GND",
+     "net": "GND",
+     "x": 7.48,
+     "y": 7.1
+    },
+    {
+     "pin": "B1",
+     "name": "GND",
+     "net": "GND",
+     "x": 7.48,
+     "y": 7.1
+    },
+    {
+     "pin": "B12",
+     "name": "GND",
+     "net": "GND",
+     "x": 13.88,
+     "y": 7.1
+    },
+    {
+     "pin": "SH",
+     "name": "SHIELD",
+     "net": "GND",
+     "x": 15.0,
+     "y": 6.5
+    },
+    {
+     "pin": "A4",
+     "name": "VBUS",
+     "net": "VBUS",
+     "x": 13.08,
+     "y": 7.1
+    },
+    {
+     "pin": "A9",
+     "name": "VBUS",
+     "net": "VBUS",
+     "x": 8.28,
+     "y": 7.1
+    },
+    {
+     "pin": "B4",
+     "name": "VBUS",
+     "net": "VBUS",
+     "x": 8.28,
+     "y": 7.1
+    },
+    {
+     "pin": "B9",
+     "name": "VBUS",
+     "net": "VBUS",
+     "x": 13.08,
+     "y": 7.1
+    },
+    {
+     "pin": "A8",
+     "name": "SBU1",
+     "net": "unconnected-(J1-SBU1-PadA8)",
+     "x": 9.43,
+     "y": 7.1
+    },
+    {
+     "pin": "B8",
+     "name": "SBU2",
+     "net": "unconnected-(J1-SBU2-PadB8)",
+     "x": 12.43,
+     "y": 7.1
+    }
+   ]
+  },
+  {
+   "ref": "J3",
+   "value": "Conn_01x20",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+   "x": 1.534,
+   "y": 1.319,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "Pin_1",
+     "net": "/GPIO0",
+     "x": 1.534,
+     "y": 1.319
+    },
+    {
+     "pin": "2",
+     "name": "Pin_2",
+     "net": "/GPIO1",
+     "x": 1.534,
+     "y": 3.859
+    },
+    {
+     "pin": "14",
+     "name": "Pin_14",
+     "net": "/GPIO10",
+     "x": 1.534,
+     "y": 34.339
+    },
+    {
+     "pin": "15",
+     "name": "Pin_15",
+     "net": "/GPIO11",
+     "x": 1.534,
+     "y": 36.879
+    },
+    {
+     "pin": "16",
+     "name": "Pin_16",
+     "net": "/GPIO12",
+     "x": 1.534,
+     "y": 39.419
+    },
+    {
+     "pin": "17",
+     "name": "Pin_17",
+     "net": "/GPIO13",
+     "x": 1.534,
+     "y": 41.959
+    },
+    {
+     "pin": "19",
+     "name": "Pin_19",
+     "net": "/GPIO14",
+     "x": 1.534,
+     "y": 47.039
+    },
+    {
+     "pin": "20",
+     "name": "Pin_20",
+     "net": "/GPIO15",
+     "x": 1.534,
+     "y": 49.579
+    },
+    {
+     "pin": "4",
+     "name": "Pin_4",
+     "net": "/GPIO2",
+     "x": 1.534,
+     "y": 8.939
+    },
+    {
+     "pin": "5",
+     "name": "Pin_5",
+     "net": "/GPIO3",
+     "x": 1.534,
+     "y": 11.479
+    },
+    {
+     "pin": "6",
+     "name": "Pin_6",
+     "net": "/GPIO4",
+     "x": 1.534,
+     "y": 14.019
+    },
+    {
+     "pin": "7",
+     "name": "Pin_7",
+     "net": "/GPIO5",
+     "x": 1.534,
+     "y": 16.559
+    },
+    {
+     "pin": "9",
+     "name": "Pin_9",
+     "net": "/GPIO6",
+     "x": 1.534,
+     "y": 21.639
+    },
+    {
+     "pin": "10",
+     "name": "Pin_10",
+     "net": "/GPIO7",
+     "x": 1.534,
+     "y": 24.179
+    },
+    {
+     "pin": "11",
+     "name": "Pin_11",
+     "net": "/GPIO8",
+     "x": 1.534,
+     "y": 26.719
+    },
+    {
+     "pin": "12",
+     "name": "Pin_12",
+     "net": "/GPIO9",
+     "x": 1.534,
+     "y": 29.259
+    },
+    {
+     "pin": "13",
+     "name": "Pin_13",
+     "net": "GND",
+     "x": 1.534,
+     "y": 31.799
+    },
+    {
+     "pin": "18",
+     "name": "Pin_18",
+     "net": "GND",
+     "x": 1.534,
+     "y": 44.499
+    },
+    {
+     "pin": "3",
+     "name": "Pin_3",
+     "net": "GND",
+     "x": 1.534,
+     "y": 6.399
+    },
+    {
+     "pin": "8",
+     "name": "Pin_8",
+     "net": "GND",
+     "x": 1.534,
+     "y": 19.099
+    }
+   ]
+  },
+  {
+   "ref": "J4",
+   "value": "Conn_01x20",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+   "x": 19.441,
+   "y": 1.319,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "4",
+     "name": "Pin_4",
+     "net": "+3.3V",
+     "x": 19.441,
+     "y": 8.939
+    },
+    {
+     "pin": "5",
+     "name": "Pin_5",
+     "net": "+3.3V",
+     "x": 19.441,
+     "y": 11.479
+    },
+    {
+     "pin": "6",
+     "name": "Pin_6",
+     "net": "+3.3V",
+     "x": 19.441,
+     "y": 14.019
+    },
+    {
+     "pin": "20",
+     "name": "Pin_20",
+     "net": "/GPIO16",
+     "x": 19.441,
+     "y": 49.579
+    },
+    {
+     "pin": "19",
+     "name": "Pin_19",
+     "net": "/GPIO17",
+     "x": 19.441,
+     "y": 47.039
+    },
+    {
+     "pin": "17",
+     "name": "Pin_17",
+     "net": "/GPIO18",
+     "x": 19.441,
+     "y": 41.959
+    },
+    {
+     "pin": "16",
+     "name": "Pin_16",
+     "net": "/GPIO19",
+     "x": 19.441,
+     "y": 39.419
+    },
+    {
+     "pin": "15",
+     "name": "Pin_15",
+     "net": "/GPIO20",
+     "x": 19.441,
+     "y": 36.879
+    },
+    {
+     "pin": "14",
+     "name": "Pin_14",
+     "net": "/GPIO21",
+     "x": 19.441,
+     "y": 34.339
+    },
+    {
+     "pin": "12",
+     "name": "Pin_12",
+     "net": "/GPIO22",
+     "x": 19.441,
+     "y": 29.259
+    },
+    {
+     "pin": "11",
+     "name": "Pin_11",
+     "net": "/GPIO26_ADC0",
+     "x": 19.441,
+     "y": 26.719
+    },
+    {
+     "pin": "10",
+     "name": "Pin_10",
+     "net": "/GPIO27_ADC1",
+     "x": 19.441,
+     "y": 24.179
+    },
+    {
+     "pin": "9",
+     "name": "Pin_9",
+     "net": "/GPIO28_ADC2",
+     "x": 19.441,
+     "y": 21.639
+    },
+    {
+     "pin": "7",
+     "name": "Pin_7",
+     "net": "/GPIO29_ADC3",
+     "x": 19.441,
+     "y": 16.559
+    },
+    {
+     "pin": "13",
+     "name": "Pin_13",
+     "net": "GND",
+     "x": 19.441,
+     "y": 31.799
+    },
+    {
+     "pin": "18",
+     "name": "Pin_18",
+     "net": "GND",
+     "x": 19.441,
+     "y": 44.499
+    },
+    {
+     "pin": "3",
+     "name": "Pin_3",
+     "net": "GND",
+     "x": 19.441,
+     "y": 6.399
+    },
+    {
+     "pin": "8",
+     "name": "Pin_8",
+     "net": "GND",
+     "x": 19.441,
+     "y": 19.099
+    },
+    {
+     "pin": "1",
+     "name": "Pin_1",
+     "net": "VBUS",
+     "x": 19.441,
+     "y": 1.319
+    },
+    {
+     "pin": "2",
+     "name": "Pin_2",
+     "net": "VCC",
+     "x": 19.441,
+     "y": 3.859
+    }
+   ]
+  },
+  {
+   "ref": "J5",
+   "value": "Conn_01x03",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+   "x": 7.92,
+   "y": 49.579,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "Pin_1",
+     "net": "/SWCLK",
+     "x": 7.92,
+     "y": 49.579
+    },
+    {
+     "pin": "3",
+     "name": "Pin_3",
+     "net": "/SWD",
+     "x": 13.0,
+     "y": 49.579
+    },
+    {
+     "pin": "2",
+     "name": "Pin_2",
+     "net": "GND",
+     "x": 10.46,
+     "y": 49.579
+    }
+   ]
+  },
+  {
+   "ref": "J6",
+   "value": "Conn_01x03_MountingPin",
+   "footprint": "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical",
+   "x": 10.5,
+   "y": 44.7,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "Pin_1",
+     "net": "/SWCLK",
+     "x": 9.5,
+     "y": 46.025
+    },
+    {
+     "pin": "3",
+     "name": "Pin_3",
+     "net": "/SWD",
+     "x": 11.5,
+     "y": 46.025
+    },
+    {
+     "pin": "2",
+     "name": "Pin_2",
+     "net": "GND",
+     "x": 10.5,
+     "y": 46.025
+    },
+    {
+     "pin": "MP",
+     "name": "MountPin",
+     "net": "GND",
+     "x": 8.2,
+     "y": 43.5
+    }
+   ]
+  },
+  {
+   "ref": "R1",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 12.15,
+   "y": 9.4,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/CC1",
+     "x": 12.15,
+     "y": 8.89
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 12.15,
+     "y": 9.91
+    }
+   ]
+  },
+  {
+   "ref": "R2",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 8.95,
+   "y": 9.4,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/CC2",
+     "x": 8.95,
+     "y": 8.89
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "GND",
+     "x": 8.95,
+     "y": 9.91
+    }
+   ]
+  },
+  {
+   "ref": "R3",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 16.14,
+   "y": 21.34,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/GPIO24",
+     "x": 16.14,
+     "y": 21.85
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "VBUS",
+     "x": 16.14,
+     "y": 20.83
+    }
+   ]
+  },
+  {
+   "ref": "R4",
+   "value": "27R",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 11.3,
+   "y": 21.7,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/USB_DP",
+     "x": 11.3,
+     "y": 21.19
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/USB_R_DP",
+     "x": 11.3,
+     "y": 22.21
+    }
+   ]
+  },
+  {
+   "ref": "R5",
+   "value": "27R",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 12.3,
+   "y": 21.7,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/USB_DN",
+     "x": 12.3,
+     "y": 21.19
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/USB_R_DN",
+     "x": 12.3,
+     "y": 22.21
+    }
+   ]
+  },
+  {
+   "ref": "R6",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 15.14,
+   "y": 21.33,
+   "rot": -90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/GPIO24",
+     "x": 15.14,
+     "y": 21.84
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/RDIV",
+     "x": 15.14,
+     "y": 20.82
+    }
+   ]
+  },
+  {
+   "ref": "R7",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 14.14,
+   "y": 21.33,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/RDIV",
+     "x": 14.14,
+     "y": 20.82
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "GND",
+     "x": 14.14,
+     "y": 21.84
+    }
+   ]
+  },
+  {
+   "ref": "R8",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 8.3,
+   "y": 37.8,
+   "rot": 0.0,
+   "dnp": true,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/Xin",
+     "x": 7.79,
+     "y": 37.8
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/XoutR",
+     "x": 8.81,
+     "y": 37.8
+    }
+   ]
+  },
+  {
+   "ref": "R9",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 8.8,
+   "y": 36.3,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/Xout",
+     "x": 8.8,
+     "y": 35.79
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/XoutR",
+     "x": 8.8,
+     "y": 36.81
+    }
+   ]
+  },
+  {
+   "ref": "R10",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 6.7,
+   "y": 22.5,
+   "rot": 0.0,
+   "dnp": true,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 6.19,
+     "y": 22.5
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/QSPI_SS",
+     "x": 7.21,
+     "y": 22.5
+    }
+   ]
+  },
+  {
+   "ref": "R11",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 6.2,
+   "y": 9.0,
+   "rot": 180.0,
+   "dnp": true,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 6.71,
+     "y": 9.0
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/RUN",
+     "x": 5.69,
+     "y": 9.0
+    }
+   ]
+  },
+  {
+   "ref": "R12",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 14.485,
+   "y": 16.45,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 13.975,
+     "y": 16.45
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/LED_3V3",
+     "x": 14.995,
+     "y": 16.45
+    }
+   ]
+  },
+  {
+   "ref": "R13",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 14.485,
+   "y": 17.45,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/GPIO23",
+     "x": 13.975,
+     "y": 17.45
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/LED_BUILT_IN2",
+     "x": 14.995,
+     "y": 17.45
+    }
+   ]
+  },
+  {
+   "ref": "R14",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 14.485,
+   "y": 18.45,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/GPIO25",
+     "x": 13.975,
+     "y": 18.45
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/LED_BUILT_IN1",
+     "x": 14.995,
+     "y": 18.45
+    }
+   ]
+  },
+  {
+   "ref": "R15",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "x": 6.7,
+   "y": 21.5,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SS",
+     "x": 7.21,
+     "y": 21.5
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/SW1_{PULL-UP}",
+     "x": 6.19,
+     "y": 21.5
+    }
+   ]
+  },
+  {
+   "ref": "SW1",
+   "value": "SW_Push",
+   "footprint": "RP2040:ALPSALPINE_SKRPACE010",
+   "x": 5.3,
+   "y": 18.0,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/SW1_{PULL-UP}",
+     "x": 6.37,
+     "y": 20.02
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "GND",
+     "x": 4.23,
+     "y": 20.02
+    }
+   ]
+  },
+  {
+   "ref": "SW2",
+   "value": "SW_Push",
+   "footprint": "RP2040:ALPSALPINE_SKRPACE010",
+   "x": 5.3,
+   "y": 12.3,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "net": "/RUN",
+     "x": 6.37,
+     "y": 14.32
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "GND",
+     "x": 4.23,
+     "y": 14.32
+    }
+   ]
+  },
+  {
+   "ref": "TP1",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 17.5,
+   "y": 11.4,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "VCC",
+     "x": 17.5,
+     "y": 11.4
+    }
+   ]
+  },
+  {
+   "ref": "TP2",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 13.35,
+   "y": 14.4,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "+3.3V",
+     "x": 13.35,
+     "y": 14.4
+    }
+   ]
+  },
+  {
+   "ref": "TP3",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 7.35,
+   "y": 41.6,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/Xin",
+     "x": 7.35,
+     "y": 41.6
+    }
+   ]
+  },
+  {
+   "ref": "TP4",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 9.7,
+   "y": 36.8,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/XoutR",
+     "x": 9.7,
+     "y": 36.8
+    }
+   ]
+  },
+  {
+   "ref": "TP5",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 11.1,
+   "y": 33.8,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/SWCLK",
+     "x": 11.1,
+     "y": 33.8
+    }
+   ]
+  },
+  {
+   "ref": "TP6",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 12.45,
+   "y": 33.8,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/SWD",
+     "x": 12.45,
+     "y": 33.8
+    }
+   ]
+  },
+  {
+   "ref": "TP7",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 13.25,
+   "y": 33.8,
+   "rot": 180.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "GND",
+     "x": 13.25,
+     "y": 33.8
+    }
+   ]
+  },
+  {
+   "ref": "TP8",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 7.5,
+   "y": 20.4,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SS",
+     "x": 7.5,
+     "y": 20.4
+    }
+   ]
+  },
+  {
+   "ref": "TP9",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 10.12,
+   "y": 15.88,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SCLK",
+     "x": 10.12,
+     "y": 15.88
+    }
+   ]
+  },
+  {
+   "ref": "TP10",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 10.78,
+   "y": 15.88,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SD0",
+     "x": 10.78,
+     "y": 15.88
+    }
+   ]
+  },
+  {
+   "ref": "TP11",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 9.23,
+   "y": 21.59,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SD1",
+     "x": 9.23,
+     "y": 21.59
+    }
+   ]
+  },
+  {
+   "ref": "TP12",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 10.0,
+   "y": 21.6,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SD2",
+     "x": 10.0,
+     "y": 21.6
+    }
+   ]
+  },
+  {
+   "ref": "TP13",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 9.45,
+   "y": 15.86,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/QSPI_SD3",
+     "x": 9.45,
+     "y": 15.86
+    }
+   ]
+  },
+  {
+   "ref": "TP14",
+   "value": "~",
+   "footprint": "rp2040_lib:TestPoint_pad",
+   "x": 8.0,
+   "y": 16.8,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "GND",
+     "x": 8.0,
+     "y": 16.8
+    }
+   ]
+  },
+  {
+   "ref": "U1",
+   "value": "XC6206P332MR",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+   "x": 14.9,
+   "y": 12.55,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "VO",
+     "net": "+3.3V",
+     "x": 13.763,
+     "y": 13.5
+    },
+    {
+     "pin": "1",
+     "name": "GND",
+     "net": "GND",
+     "x": 13.763,
+     "y": 11.6
+    },
+    {
+     "pin": "3",
+     "name": "VI",
+     "net": "VCC",
+     "x": 16.037,
+     "y": 12.55
+    }
+   ]
+  },
+  {
+   "ref": "U2",
+   "value": "RP2040",
+   "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+   "x": 10.59,
+   "y": 29.7,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "23",
+     "name": "DVDD",
+     "net": "+1V1",
+     "x": 11.19,
+     "y": 33.138
+    },
+    {
+     "pin": "45",
+     "name": "VREG_VOUT",
+     "net": "+1V1",
+     "x": 12.39,
+     "y": 26.263
+    },
+    {
+     "pin": "50",
+     "name": "DVDD",
+     "net": "+1V1",
+     "x": 10.39,
+     "y": 26.263
+    },
+    {
+     "pin": "1",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 7.153,
+     "y": 27.1
+    },
+    {
+     "pin": "10",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 7.153,
+     "y": 30.7
+    },
+    {
+     "pin": "22",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 10.79,
+     "y": 33.138
+    },
+    {
+     "pin": "33",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 14.028,
+     "y": 30.7
+    },
+    {
+     "pin": "42",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 14.028,
+     "y": 27.1
+    },
+    {
+     "pin": "43",
+     "name": "ADC_AVDD",
+     "net": "+3.3V",
+     "x": 13.19,
+     "y": 26.263
+    },
+    {
+     "pin": "44",
+     "name": "VREG_IN",
+     "net": "+3.3V",
+     "x": 12.79,
+     "y": 26.263
+    },
+    {
+     "pin": "48",
+     "name": "USB_VDD",
+     "net": "+3.3V",
+     "x": 11.19,
+     "y": 26.263
+    },
+    {
+     "pin": "49",
+     "name": "IOVDD",
+     "net": "+3.3V",
+     "x": 10.79,
+     "y": 26.263
+    },
+    {
+     "pin": "2",
+     "name": "GPIO0",
+     "net": "/GPIO0",
+     "x": 7.153,
+     "y": 27.5
+    },
+    {
+     "pin": "3",
+     "name": "GPIO1",
+     "net": "/GPIO1",
+     "x": 7.153,
+     "y": 27.9
+    },
+    {
+     "pin": "13",
+     "name": "GPIO10",
+     "net": "/GPIO10",
+     "x": 7.153,
+     "y": 31.9
+    },
+    {
+     "pin": "14",
+     "name": "GPIO11",
+     "net": "/GPIO11",
+     "x": 7.153,
+     "y": 32.3
+    },
+    {
+     "pin": "15",
+     "name": "GPIO12",
+     "net": "/GPIO12",
+     "x": 7.99,
+     "y": 33.138
+    },
+    {
+     "pin": "16",
+     "name": "GPIO13",
+     "net": "/GPIO13",
+     "x": 8.39,
+     "y": 33.138
+    },
+    {
+     "pin": "17",
+     "name": "GPIO14",
+     "net": "/GPIO14",
+     "x": 8.79,
+     "y": 33.138
+    },
+    {
+     "pin": "18",
+     "name": "GPIO15",
+     "net": "/GPIO15",
+     "x": 9.19,
+     "y": 33.138
+    },
+    {
+     "pin": "27",
+     "name": "GPIO16",
+     "net": "/GPIO16",
+     "x": 12.79,
+     "y": 33.138
+    },
+    {
+     "pin": "28",
+     "name": "GPIO17",
+     "net": "/GPIO17",
+     "x": 13.19,
+     "y": 33.138
+    },
+    {
+     "pin": "29",
+     "name": "GPIO18",
+     "net": "/GPIO18",
+     "x": 14.028,
+     "y": 32.3
+    },
+    {
+     "pin": "30",
+     "name": "GPIO19",
+     "net": "/GPIO19",
+     "x": 14.028,
+     "y": 31.9
+    },
+    {
+     "pin": "4",
+     "name": "GPIO2",
+     "net": "/GPIO2",
+     "x": 7.153,
+     "y": 28.3
+    },
+    {
+     "pin": "31",
+     "name": "GPIO20",
+     "net": "/GPIO20",
+     "x": 14.028,
+     "y": 31.5
+    },
+    {
+     "pin": "32",
+     "name": "GPIO21",
+     "net": "/GPIO21",
+     "x": 14.028,
+     "y": 31.1
+    },
+    {
+     "pin": "34",
+     "name": "GPIO22",
+     "net": "/GPIO22",
+     "x": 14.028,
+     "y": 30.3
+    },
+    {
+     "pin": "35",
+     "name": "GPIO23",
+     "net": "/GPIO23",
+     "x": 14.028,
+     "y": 29.9
+    },
+    {
+     "pin": "36",
+     "name": "GPIO24",
+     "net": "/GPIO24",
+     "x": 14.028,
+     "y": 29.5
+    },
+    {
+     "pin": "37",
+     "name": "GPIO25",
+     "net": "/GPIO25",
+     "x": 14.028,
+     "y": 29.1
+    },
+    {
+     "pin": "38",
+     "name": "GPIO26_ADC0",
+     "net": "/GPIO26_ADC0",
+     "x": 14.028,
+     "y": 28.7
+    },
+    {
+     "pin": "39",
+     "name": "GPIO27_ADC1",
+     "net": "/GPIO27_ADC1",
+     "x": 14.028,
+     "y": 28.3
+    },
+    {
+     "pin": "40",
+     "name": "GPIO28_ADC2",
+     "net": "/GPIO28_ADC2",
+     "x": 14.028,
+     "y": 27.9
+    },
+    {
+     "pin": "41",
+     "name": "GPIO29_ADC3",
+     "net": "/GPIO29_ADC3",
+     "x": 14.028,
+     "y": 27.5
+    },
+    {
+     "pin": "5",
+     "name": "GPIO3",
+     "net": "/GPIO3",
+     "x": 7.153,
+     "y": 28.7
+    },
+    {
+     "pin": "6",
+     "name": "GPIO4",
+     "net": "/GPIO4",
+     "x": 7.153,
+     "y": 29.1
+    },
+    {
+     "pin": "7",
+     "name": "GPIO5",
+     "net": "/GPIO5",
+     "x": 7.153,
+     "y": 29.5
+    },
+    {
+     "pin": "8",
+     "name": "GPIO6",
+     "net": "/GPIO6",
+     "x": 7.153,
+     "y": 29.9
+    },
+    {
+     "pin": "9",
+     "name": "GPIO7",
+     "net": "/GPIO7",
+     "x": 7.153,
+     "y": 30.3
+    },
+    {
+     "pin": "11",
+     "name": "GPIO8",
+     "net": "/GPIO8",
+     "x": 7.153,
+     "y": 31.1
+    },
+    {
+     "pin": "12",
+     "name": "GPIO9",
+     "net": "/GPIO9",
+     "x": 7.153,
+     "y": 31.5
+    },
+    {
+     "pin": "52",
+     "name": "QSPI_SCLK",
+     "net": "/QSPI_SCLK",
+     "x": 9.59,
+     "y": 26.263
+    },
+    {
+     "pin": "53",
+     "name": "QSPI_SD0",
+     "net": "/QSPI_SD0",
+     "x": 9.19,
+     "y": 26.263
+    },
+    {
+     "pin": "55",
+     "name": "QSPI_SD1",
+     "net": "/QSPI_SD1",
+     "x": 8.39,
+     "y": 26.263
+    },
+    {
+     "pin": "54",
+     "name": "QSPI_SD2",
+     "net": "/QSPI_SD2",
+     "x": 8.79,
+     "y": 26.263
+    },
+    {
+     "pin": "51",
+     "name": "QSPI_SD3",
+     "net": "/QSPI_SD3",
+     "x": 9.99,
+     "y": 26.263
+    },
+    {
+     "pin": "56",
+     "name": "QSPI_SS",
+     "net": "/QSPI_SS",
+     "x": 7.99,
+     "y": 26.263
+    },
+    {
+     "pin": "26",
+     "name": "RUN",
+     "net": "/RUN",
+     "x": 12.39,
+     "y": 33.138
+    },
+    {
+     "pin": "24",
+     "name": "SWCLK",
+     "net": "/SWCLK",
+     "x": 11.59,
+     "y": 33.138
+    },
+    {
+     "pin": "25",
+     "name": "SWD",
+     "net": "/SWD",
+     "x": 11.99,
+     "y": 33.138
+    },
+    {
+     "pin": "46",
+     "name": "USB_DM",
+     "net": "/USB_R_DN",
+     "x": 11.99,
+     "y": 26.263
+    },
+    {
+     "pin": "47",
+     "name": "USB_DP",
+     "net": "/USB_R_DP",
+     "x": 11.59,
+     "y": 26.263
+    },
+    {
+     "pin": "20",
+     "name": "XIN",
+     "net": "/Xin",
+     "x": 9.99,
+     "y": 33.138
+    },
+    {
+     "pin": "21",
+     "name": "XOUT",
+     "net": "/Xout",
+     "x": 10.39,
+     "y": 33.138
+    },
+    {
+     "pin": "19",
+     "name": "TESTEN",
+     "net": "GND",
+     "x": 9.59,
+     "y": 33.138
+    },
+    {
+     "pin": "57",
+     "name": "GND",
+     "net": "GND",
+     "x": 10.59,
+     "y": 29.7
+    }
+   ]
+  },
+  {
+   "ref": "U3",
+   "value": "W25Q16JVUXIQ",
+   "footprint": "RP2040:W25Q16JVUXIQ",
+   "x": 9.9,
+   "y": 18.575,
+   "rot": 90.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "8",
+     "name": "VCC",
+     "net": "+3.3V",
+     "x": 9.15,
+     "y": 17.275
+    },
+    {
+     "pin": "6",
+     "name": "CLK",
+     "net": "/QSPI_SCLK",
+     "x": 10.15,
+     "y": 17.275
+    },
+    {
+     "pin": "5",
+     "name": "DI(IO0)",
+     "net": "/QSPI_SD0",
+     "x": 10.65,
+     "y": 17.275
+    },
+    {
+     "pin": "2",
+     "name": "DO(IO1)",
+     "net": "/QSPI_SD1",
+     "x": 9.65,
+     "y": 19.875
+    },
+    {
+     "pin": "3",
+     "name": "IO2",
+     "net": "/QSPI_SD2",
+     "x": 10.15,
+     "y": 19.875
+    },
+    {
+     "pin": "7",
+     "name": "IO3",
+     "net": "/QSPI_SD3",
+     "x": 9.65,
+     "y": 17.275
+    },
+    {
+     "pin": "1",
+     "name": "~{CS}",
+     "net": "/QSPI_SS",
+     "x": 9.15,
+     "y": 19.875
+    },
+    {
+     "pin": "4",
+     "name": "GND",
+     "net": "GND",
+     "x": 10.65,
+     "y": 19.875
+    },
+    {
+     "pin": "9",
+     "name": "EP",
+     "net": "unconnected-(U3-EP-Pad9)",
+     "x": 9.9,
+     "y": 18.575
+    }
+   ]
+  },
+  {
+   "ref": "Y1",
+   "value": "12MHz",
+   "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+   "x": 10.0,
+   "y": 40.05,
+   "rot": 0.0,
+   "dnp": false,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "net": "/Xin",
+     "x": 8.9,
+     "y": 40.9
+    },
+    {
+     "pin": "3",
+     "name": "3",
+     "net": "/XoutR",
+     "x": 11.1,
+     "y": 39.2
+    },
+    {
+     "pin": "2",
+     "name": "G",
+     "net": "GND",
+     "x": 11.1,
+     "y": 40.9
+    },
+    {
+     "pin": "4",
+     "name": "G",
+     "net": "GND",
+     "x": 8.9,
+     "y": 39.2
+    }
+   ]
+  }
+ ],
+ "nets": [
+  {
+   "name": "+1V1",
+   "role": "power_rail",
+   "nodes": [
+    {
+     "ref": "C1",
+     "pin": "1"
+    },
+    {
+     "ref": "C2",
+     "pin": "1"
+    },
+    {
+     "ref": "C3",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "23"
+    },
+    {
+     "ref": "U2",
+     "pin": "45"
+    },
+    {
+     "ref": "U2",
+     "pin": "50"
+    }
+   ]
+  },
+  {
+   "name": "+3.3V",
+   "role": "power_rail",
+   "nodes": [
+    {
+     "ref": "C4",
+     "pin": "1"
+    },
+    {
+     "ref": "C5",
+     "pin": "1"
+    },
+    {
+     "ref": "C6",
+     "pin": "1"
+    },
+    {
+     "ref": "C7",
+     "pin": "1"
+    },
+    {
+     "ref": "C8",
+     "pin": "1"
+    },
+    {
+     "ref": "C9",
+     "pin": "1"
+    },
+    {
+     "ref": "C10",
+     "pin": "1"
+    },
+    {
+     "ref": "C11",
+     "pin": "1"
+    },
+    {
+     "ref": "C12",
+     "pin": "1"
+    },
+    {
+     "ref": "C14",
+     "pin": "1"
+    },
+    {
+     "ref": "C15",
+     "pin": "1"
+    },
+    {
+     "ref": "J4",
+     "pin": "4"
+    },
+    {
+     "ref": "J4",
+     "pin": "5"
+    },
+    {
+     "ref": "J4",
+     "pin": "6"
+    },
+    {
+     "ref": "R10",
+     "pin": "1"
+    },
+    {
+     "ref": "R11",
+     "pin": "1"
+    },
+    {
+     "ref": "R12",
+     "pin": "1"
+    },
+    {
+     "ref": "TP2",
+     "pin": "1"
+    },
+    {
+     "ref": "U1",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "10"
+    },
+    {
+     "ref": "U2",
+     "pin": "22"
+    },
+    {
+     "ref": "U2",
+     "pin": "33"
+    },
+    {
+     "ref": "U2",
+     "pin": "42"
+    },
+    {
+     "ref": "U2",
+     "pin": "43"
+    },
+    {
+     "ref": "U2",
+     "pin": "44"
+    },
+    {
+     "ref": "U2",
+     "pin": "48"
+    },
+    {
+     "ref": "U2",
+     "pin": "49"
+    },
+    {
+     "ref": "U3",
+     "pin": "8"
+    }
+   ]
+  },
+  {
+   "name": "/CC1",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "A5"
+    },
+    {
+     "ref": "R1",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/CC2",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "B5"
+    },
+    {
+     "ref": "R2",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO0",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO1",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "3"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO10",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "14"
+    },
+    {
+     "ref": "U2",
+     "pin": "13"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO11",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "15"
+    },
+    {
+     "ref": "U2",
+     "pin": "14"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO12",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "16"
+    },
+    {
+     "ref": "U2",
+     "pin": "15"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO13",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "17"
+    },
+    {
+     "ref": "U2",
+     "pin": "16"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO14",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "19"
+    },
+    {
+     "ref": "U2",
+     "pin": "17"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO15",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "20"
+    },
+    {
+     "ref": "U2",
+     "pin": "18"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO16",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "20"
+    },
+    {
+     "ref": "U2",
+     "pin": "27"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO17",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "19"
+    },
+    {
+     "ref": "U2",
+     "pin": "28"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO18",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "17"
+    },
+    {
+     "ref": "U2",
+     "pin": "29"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO19",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "16"
+    },
+    {
+     "ref": "U2",
+     "pin": "30"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO2",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "4"
+    },
+    {
+     "ref": "U2",
+     "pin": "4"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO20",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "15"
+    },
+    {
+     "ref": "U2",
+     "pin": "31"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO21",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "14"
+    },
+    {
+     "ref": "U2",
+     "pin": "32"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO22",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "12"
+    },
+    {
+     "ref": "U2",
+     "pin": "34"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO23",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "R13",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "35"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO24",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "R3",
+     "pin": "1"
+    },
+    {
+     "ref": "R6",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "36"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO25",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "R14",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "37"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO26_ADC0",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "11"
+    },
+    {
+     "ref": "U2",
+     "pin": "38"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO27_ADC1",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "10"
+    },
+    {
+     "ref": "U2",
+     "pin": "39"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO28_ADC2",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "9"
+    },
+    {
+     "ref": "U2",
+     "pin": "40"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO29_ADC3",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J4",
+     "pin": "7"
+    },
+    {
+     "ref": "U2",
+     "pin": "41"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO3",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "5"
+    },
+    {
+     "ref": "U2",
+     "pin": "5"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO4",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "6"
+    },
+    {
+     "ref": "U2",
+     "pin": "6"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO5",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "7"
+    },
+    {
+     "ref": "U2",
+     "pin": "7"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO6",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "9"
+    },
+    {
+     "ref": "U2",
+     "pin": "8"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO7",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "10"
+    },
+    {
+     "ref": "U2",
+     "pin": "9"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO8",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "11"
+    },
+    {
+     "ref": "U2",
+     "pin": "11"
+    }
+   ]
+  },
+  {
+   "name": "/GPIO9",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "J3",
+     "pin": "12"
+    },
+    {
+     "ref": "U2",
+     "pin": "12"
+    }
+   ]
+  },
+  {
+   "name": "/LED_3V3",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "D2",
+     "pin": "2"
+    },
+    {
+     "ref": "R12",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/LED_BUILT_IN1",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "D4",
+     "pin": "2"
+    },
+    {
+     "ref": "R14",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/LED_BUILT_IN2",
+   "role": "gpio",
+   "nodes": [
+    {
+     "ref": "D3",
+     "pin": "2"
+    },
+    {
+     "ref": "R13",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SCLK",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "TP9",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "52"
+    },
+    {
+     "ref": "U3",
+     "pin": "6"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SD0",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "TP10",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "53"
+    },
+    {
+     "ref": "U3",
+     "pin": "5"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SD1",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "TP11",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "55"
+    },
+    {
+     "ref": "U3",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SD2",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "TP12",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "54"
+    },
+    {
+     "ref": "U3",
+     "pin": "3"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SD3",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "TP13",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "51"
+    },
+    {
+     "ref": "U3",
+     "pin": "7"
+    }
+   ]
+  },
+  {
+   "name": "/QSPI_SS",
+   "role": "qspi",
+   "nodes": [
+    {
+     "ref": "R10",
+     "pin": "2"
+    },
+    {
+     "ref": "R15",
+     "pin": "1"
+    },
+    {
+     "ref": "TP8",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "56"
+    },
+    {
+     "ref": "U3",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/RDIV",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "R6",
+     "pin": "1"
+    },
+    {
+     "ref": "R7",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/RUN",
+   "role": "reset",
+   "nodes": [
+    {
+     "ref": "R11",
+     "pin": "2"
+    },
+    {
+     "ref": "SW2",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "26"
+    }
+   ]
+  },
+  {
+   "name": "/SW1_{PULL-UP}",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "R15",
+     "pin": "2"
+    },
+    {
+     "ref": "SW1",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "/SWCLK",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "J5",
+     "pin": "1"
+    },
+    {
+     "ref": "J6",
+     "pin": "1"
+    },
+    {
+     "ref": "TP5",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "24"
+    }
+   ]
+  },
+  {
+   "name": "/SWD",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "J5",
+     "pin": "3"
+    },
+    {
+     "ref": "J6",
+     "pin": "3"
+    },
+    {
+     "ref": "TP6",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "25"
+    }
+   ]
+  },
+  {
+   "name": "/USB_DN",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "A7"
+    },
+    {
+     "ref": "J1",
+     "pin": "B7"
+    },
+    {
+     "ref": "R5",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/USB_DP",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "A6"
+    },
+    {
+     "ref": "J1",
+     "pin": "B6"
+    },
+    {
+     "ref": "R4",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/USB_R_DN",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "R5",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "46"
+    }
+   ]
+  },
+  {
+   "name": "/USB_R_DP",
+   "role": "usb",
+   "nodes": [
+    {
+     "ref": "R4",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "47"
+    }
+   ]
+  },
+  {
+   "name": "/Xin",
+   "role": "clock",
+   "nodes": [
+    {
+     "ref": "C16",
+     "pin": "1"
+    },
+    {
+     "ref": "R8",
+     "pin": "1"
+    },
+    {
+     "ref": "TP3",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "20"
+    },
+    {
+     "ref": "Y1",
+     "pin": "1"
+    }
+   ]
+  },
+  {
+   "name": "/Xout",
+   "role": "clock",
+   "nodes": [
+    {
+     "ref": "R9",
+     "pin": "2"
+    },
+    {
+     "ref": "U2",
+     "pin": "21"
+    }
+   ]
+  },
+  {
+   "name": "/XoutR",
+   "role": "clock",
+   "nodes": [
+    {
+     "ref": "C17",
+     "pin": "1"
+    },
+    {
+     "ref": "R8",
+     "pin": "2"
+    },
+    {
+     "ref": "R9",
+     "pin": "1"
+    },
+    {
+     "ref": "TP4",
+     "pin": "1"
+    },
+    {
+     "ref": "Y1",
+     "pin": "3"
+    }
+   ]
+  },
+  {
+   "name": "GND",
+   "role": "ground",
+   "nodes": [
+    {
+     "ref": "C1",
+     "pin": "2"
+    },
+    {
+     "ref": "C2",
+     "pin": "2"
+    },
+    {
+     "ref": "C3",
+     "pin": "2"
+    },
+    {
+     "ref": "C4",
+     "pin": "2"
+    },
+    {
+     "ref": "C5",
+     "pin": "2"
+    },
+    {
+     "ref": "C6",
+     "pin": "2"
+    },
+    {
+     "ref": "C7",
+     "pin": "2"
+    },
+    {
+     "ref": "C8",
+     "pin": "2"
+    },
+    {
+     "ref": "C9",
+     "pin": "2"
+    },
+    {
+     "ref": "C10",
+     "pin": "2"
+    },
+    {
+     "ref": "C11",
+     "pin": "2"
+    },
+    {
+     "ref": "C12",
+     "pin": "2"
+    },
+    {
+     "ref": "C13",
+     "pin": "2"
+    },
+    {
+     "ref": "C14",
+     "pin": "2"
+    },
+    {
+     "ref": "C15",
+     "pin": "2"
+    },
+    {
+     "ref": "C16",
+     "pin": "2"
+    },
+    {
+     "ref": "C17",
+     "pin": "2"
+    },
+    {
+     "ref": "D2",
+     "pin": "1"
+    },
+    {
+     "ref": "D3",
+     "pin": "1"
+    },
+    {
+     "ref": "D4",
+     "pin": "1"
+    },
+    {
+     "ref": "J1",
+     "pin": "A1"
+    },
+    {
+     "ref": "J1",
+     "pin": "A12"
+    },
+    {
+     "ref": "J1",
+     "pin": "B1"
+    },
+    {
+     "ref": "J1",
+     "pin": "B12"
+    },
+    {
+     "ref": "J1",
+     "pin": "SH"
+    },
+    {
+     "ref": "J3",
+     "pin": "13"
+    },
+    {
+     "ref": "J3",
+     "pin": "18"
+    },
+    {
+     "ref": "J3",
+     "pin": "3"
+    },
+    {
+     "ref": "J3",
+     "pin": "8"
+    },
+    {
+     "ref": "J4",
+     "pin": "13"
+    },
+    {
+     "ref": "J4",
+     "pin": "18"
+    },
+    {
+     "ref": "J4",
+     "pin": "3"
+    },
+    {
+     "ref": "J4",
+     "pin": "8"
+    },
+    {
+     "ref": "J5",
+     "pin": "2"
+    },
+    {
+     "ref": "J6",
+     "pin": "2"
+    },
+    {
+     "ref": "J6",
+     "pin": "MP"
+    },
+    {
+     "ref": "R1",
+     "pin": "2"
+    },
+    {
+     "ref": "R2",
+     "pin": "2"
+    },
+    {
+     "ref": "R7",
+     "pin": "1"
+    },
+    {
+     "ref": "SW1",
+     "pin": "1"
+    },
+    {
+     "ref": "SW2",
+     "pin": "1"
+    },
+    {
+     "ref": "TP7",
+     "pin": "1"
+    },
+    {
+     "ref": "TP14",
+     "pin": "1"
+    },
+    {
+     "ref": "U1",
+     "pin": "1"
+    },
+    {
+     "ref": "U2",
+     "pin": "19"
+    },
+    {
+     "ref": "U2",
+     "pin": "57"
+    },
+    {
+     "ref": "U3",
+     "pin": "4"
+    },
+    {
+     "ref": "Y1",
+     "pin": "2"
+    },
+    {
+     "ref": "Y1",
+     "pin": "4"
+    }
+   ]
+  },
+  {
+   "name": "VBUS",
+   "role": "power_rail",
+   "nodes": [
+    {
+     "ref": "D1",
+     "pin": "2"
+    },
+    {
+     "ref": "J1",
+     "pin": "A4"
+    },
+    {
+     "ref": "J1",
+     "pin": "A9"
+    },
+    {
+     "ref": "J1",
+     "pin": "B4"
+    },
+    {
+     "ref": "J1",
+     "pin": "B9"
+    },
+    {
+     "ref": "J4",
+     "pin": "1"
+    },
+    {
+     "ref": "R3",
+     "pin": "2"
+    }
+   ]
+  },
+  {
+   "name": "VCC",
+   "role": "power_rail",
+   "nodes": [
+    {
+     "ref": "C13",
+     "pin": "1"
+    },
+    {
+     "ref": "D1",
+     "pin": "1"
+    },
+    {
+     "ref": "J4",
+     "pin": "2"
+    },
+    {
+     "ref": "TP1",
+     "pin": "1"
+    },
+    {
+     "ref": "U1",
+     "pin": "3"
+    }
+   ]
+  },
+  {
+   "name": "unconnected-(J1-SBU1-PadA8)",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "A8"
+    }
+   ]
+  },
+  {
+   "name": "unconnected-(J1-SBU2-PadB8)",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "J1",
+     "pin": "B8"
+    }
+   ]
+  },
+  {
+   "name": "unconnected-(U3-EP-Pad9)",
+   "role": "other",
+   "nodes": [
+    {
+     "ref": "U3",
+     "pin": "9"
+    }
+   ]
+  }
+ ],
+ "power_tree": [
+  {
+   "ref": "D1",
+   "in_net": "VBUS",
+   "out_net": "VCC",
+   "nominal_v": 4.7
+  },
+  {
+   "ref": "U1",
+   "in_net": "VCC",
+   "out_net": "+3.3V",
+   "nominal_v": 3.3
+  },
+  {
+   "ref": "U2",
+   "in_net": "+3.3V",
+   "out_net": "+1V1",
+   "nominal_v": 1.1
+  }
+ ],
+ "nominal": {
+  "+1V1": {
+   "v": 1.1,
+   "r_gnd": 900.0,
+   "r_gnd_min": 450.0,
+   "freq_hz": null
+  },
+  "+3.3V": {
+   "v": 3.3,
+   "r_gnd": 2200.0,
+   "r_gnd_min": 1100.0,
+   "freq_hz": null
+  },
+  "/CC1": {
+   "v": null,
+   "r_gnd": 5100.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/CC2": {
+   "v": null,
+   "r_gnd": 5100.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO0": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO1": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO10": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO11": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO12": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO13": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO14": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO15": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO16": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO17": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO18": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO19": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO2": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO20": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO21": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO22": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO23": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO24": {
+   "v": null,
+   "r_gnd": 19729.2,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO25": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO26_ADC0": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO27_ADC1": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO28_ADC2": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO29_ADC3": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO3": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO4": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO5": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO6": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO7": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO8": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/GPIO9": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/LED_3V3": {
+   "v": null,
+   "r_gnd": 3200.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/LED_BUILT_IN1": {
+   "v": null,
+   "r_gnd": 601000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/LED_BUILT_IN2": {
+   "v": null,
+   "r_gnd": 601000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SCLK": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SD0": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SD1": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SD2": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SD3": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/QSPI_SS": {
+   "v": null,
+   "r_gnd": 300000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/RDIV": {
+   "v": null,
+   "r_gnd": 5057.4,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/RUN": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/SW1_{PULL-UP}": {
+   "v": null,
+   "r_gnd": 301000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/SWCLK": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/SWD": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/USB_DN": {
+   "v": null,
+   "r_gnd": 600027.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/USB_DP": {
+   "v": null,
+   "r_gnd": 600027.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/USB_R_DN": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/USB_R_DP": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": null
+  },
+  "/Xin": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": 12000000.0
+  },
+  "/Xout": {
+   "v": null,
+   "r_gnd": 600000.0,
+   "r_gnd_min": null,
+   "freq_hz": 12000000.0
+  },
+  "/XoutR": {
+   "v": null,
+   "r_gnd": 601000.0,
+   "r_gnd_min": null,
+   "freq_hz": 12000000.0
+  },
+  "VBUS": {
+   "v": 5.0,
+   "r_gnd": 15300.0,
+   "r_gnd_min": 7650.0,
+   "freq_hz": null
+  },
+  "VCC": {
+   "v": 4.7,
+   "r_gnd": 120000.0,
+   "r_gnd_min": 60000.0,
+   "freq_hz": null
+  }
+ },
+ "testpoints": [
+  {
+   "tp": "TP_1V1",
+   "net": "+1V1",
+   "ref": "C1",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair"
+   ]
+  },
+  {
+   "tp": "TP_3_3V",
+   "net": "+3.3V",
+   "ref": "TP2",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair"
+   ]
+  },
+  {
+   "tp": "TP_CC1",
+   "net": "/CC1",
+   "ref": "R1",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_CC2",
+   "net": "/CC2",
+   "ref": "R2",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO0",
+   "net": "/GPIO0",
+   "ref": "J3",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic",
+    "uart"
+   ]
+  },
+  {
+   "tp": "TP_GPIO1",
+   "net": "/GPIO1",
+   "ref": "J3",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO10",
+   "net": "/GPIO10",
+   "ref": "J3",
+   "pin": "14",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO11",
+   "net": "/GPIO11",
+   "ref": "J3",
+   "pin": "15",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO12",
+   "net": "/GPIO12",
+   "ref": "J3",
+   "pin": "16",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO13",
+   "net": "/GPIO13",
+   "ref": "J3",
+   "pin": "17",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO14",
+   "net": "/GPIO14",
+   "ref": "J3",
+   "pin": "19",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO15",
+   "net": "/GPIO15",
+   "ref": "J3",
+   "pin": "20",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO16",
+   "net": "/GPIO16",
+   "ref": "J4",
+   "pin": "20",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO17",
+   "net": "/GPIO17",
+   "ref": "J4",
+   "pin": "19",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO18",
+   "net": "/GPIO18",
+   "ref": "J4",
+   "pin": "17",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO19",
+   "net": "/GPIO19",
+   "ref": "J4",
+   "pin": "16",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO2",
+   "net": "/GPIO2",
+   "ref": "J3",
+   "pin": "4",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO20",
+   "net": "/GPIO20",
+   "ref": "J4",
+   "pin": "15",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO21",
+   "net": "/GPIO21",
+   "ref": "J4",
+   "pin": "14",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO22",
+   "net": "/GPIO22",
+   "ref": "J4",
+   "pin": "12",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO23",
+   "net": "/GPIO23",
+   "ref": "R13",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO24",
+   "net": "/GPIO24",
+   "ref": "R3",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO25",
+   "net": "/GPIO25",
+   "ref": "R14",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO26_ADC0",
+   "net": "/GPIO26_ADC0",
+   "ref": "J4",
+   "pin": "11",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO27_ADC1",
+   "net": "/GPIO27_ADC1",
+   "ref": "J4",
+   "pin": "10",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO28_ADC2",
+   "net": "/GPIO28_ADC2",
+   "ref": "J4",
+   "pin": "9",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO29_ADC3",
+   "net": "/GPIO29_ADC3",
+   "ref": "J4",
+   "pin": "7",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO3",
+   "net": "/GPIO3",
+   "ref": "J3",
+   "pin": "5",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO4",
+   "net": "/GPIO4",
+   "ref": "J3",
+   "pin": "6",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO5",
+   "net": "/GPIO5",
+   "ref": "J3",
+   "pin": "7",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO6",
+   "net": "/GPIO6",
+   "ref": "J3",
+   "pin": "9",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO7",
+   "net": "/GPIO7",
+   "ref": "J3",
+   "pin": "10",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO8",
+   "net": "/GPIO8",
+   "ref": "J3",
+   "pin": "11",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GPIO9",
+   "net": "/GPIO9",
+   "ref": "J3",
+   "pin": "12",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_LED_3V3",
+   "net": "/LED_3V3",
+   "ref": "R12",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_LED_BUILT_IN1",
+   "net": "/LED_BUILT_IN1",
+   "ref": "R14",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_LED_BUILT_IN2",
+   "net": "/LED_BUILT_IN2",
+   "ref": "R13",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SCLK",
+   "net": "/QSPI_SCLK",
+   "ref": "TP9",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SD0",
+   "net": "/QSPI_SD0",
+   "ref": "TP10",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SD1",
+   "net": "/QSPI_SD1",
+   "ref": "TP11",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SD2",
+   "net": "/QSPI_SD2",
+   "ref": "TP12",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SD3",
+   "net": "/QSPI_SD3",
+   "ref": "TP13",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_QSPI_SS",
+   "net": "/QSPI_SS",
+   "ref": "TP8",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_RDIV",
+   "net": "/RDIV",
+   "ref": "R6",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_RUN",
+   "net": "/RUN",
+   "ref": "SW2",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_SW1_PULL_UP",
+   "net": "/SW1_{PULL-UP}",
+   "ref": "R15",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_SWCLK",
+   "net": "/SWCLK",
+   "ref": "TP5",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_SWD",
+   "net": "/SWD",
+   "ref": "TP6",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_USB_DN",
+   "net": "/USB_DN",
+   "ref": "R5",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_USB_DP",
+   "net": "/USB_DP",
+   "ref": "R4",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_USB_R_DN",
+   "net": "/USB_R_DN",
+   "ref": "R5",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_USB_R_DP",
+   "net": "/USB_R_DP",
+   "ref": "R4",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_Xin",
+   "net": "/Xin",
+   "ref": "TP3",
+   "pin": "1",
+   "kinds": [
+    "freq",
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_Xout",
+   "net": "/Xout",
+   "ref": "R9",
+   "pin": "2",
+   "kinds": [
+    "freq",
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_XoutR",
+   "net": "/XoutR",
+   "ref": "TP4",
+   "pin": "1",
+   "kinds": [
+    "freq",
+    "v",
+    "r_gnd",
+    "r_pair",
+    "logic"
+   ]
+  },
+  {
+   "tp": "TP_GND",
+   "net": "GND",
+   "ref": "TP7",
+   "pin": "1",
+   "kinds": [
+    "r_pair"
+   ]
+  },
+  {
+   "tp": "TP_VBUS",
+   "net": "VBUS",
+   "ref": "R3",
+   "pin": "2",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair"
+   ]
+  },
+  {
+   "tp": "TP_VCC",
+   "net": "VCC",
+   "ref": "TP1",
+   "pin": "1",
+   "kinds": [
+    "v",
+    "r_gnd",
+    "r_pair"
+   ]
+  },
+  {
+   "tp": "SUPPLY",
+   "net": "VBUS",
+   "ref": "R3",
+   "pin": "2",
+   "kinds": [
+    "i_supply"
+   ]
+  },
+  {
+   "tp": "USB_HOST",
+   "net": "/USB_DP",
+   "ref": "J1",
+   "pin": "A6",
+   "kinds": [
+    "usb_enum"
+   ]
+  }
+ ],
+ "outline": {
+  "w": 21.0,
+  "h": 51.0
+ }
+}

@@ -1,0 +1,646 @@
+{
+ "board_id": "rp2040_easyduino",
+ "seed": 2026,
+ "per_class": 5,
+ "cases": [
+  {
+   "case_id": "c01",
+   "cls": "WRONG_VALUE",
+   "target": {
+    "nets": [
+     "/USB_DP",
+     "/USB_R_DP"
+    ],
+    "refs": [
+     "R4"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "R4",
+    "nominal": 27.0,
+    "actual": 2700.0
+   },
+   "seed": 2026001
+  },
+  {
+   "case_id": "c02",
+   "cls": "WRONG_VALUE",
+   "target": {
+    "nets": [
+     "/USB_DN",
+     "/USB_R_DN"
+    ],
+    "refs": [
+     "R5"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "R5",
+    "nominal": 27.0,
+    "actual": 2700.0
+   },
+   "seed": 2026002
+  },
+  {
+   "case_id": "c03",
+   "cls": "SIGNAL_OPEN",
+   "target": {
+    "nets": [
+     "/QSPI_SD2"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.54"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin": "54",
+    "net": "/QSPI_SD2"
+   },
+   "seed": 2026003
+  },
+  {
+   "case_id": "c04",
+   "cls": "RAIL_SHORT",
+   "target": {
+    "nets": [
+     "VCC"
+    ],
+    "refs": [
+     "C13"
+    ],
+    "pins": [
+     "C13.1"
+    ]
+   },
+   "params": {
+    "rail": "VCC",
+    "cap": "C13",
+    "r_short": 0.556
+   },
+   "seed": 2026004
+  },
+  {
+   "case_id": "c05",
+   "cls": "PIN_BRIDGE",
+   "target": {
+    "nets": [
+     "/USB_R_DN",
+     "/USB_R_DP"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.46",
+     "U2.47"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin_a": "46",
+    "pin_b": "47",
+    "net_a": "/USB_R_DN",
+    "net_b": "/USB_R_DP",
+    "r_bridge": 0.271
+   },
+   "seed": 2026005
+  },
+  {
+   "case_id": "c06",
+   "cls": "RAIL_OPEN",
+   "target": {
+    "nets": [
+     "VCC",
+     "+3.3V"
+    ],
+    "refs": [
+     "U1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "U1",
+    "in_net": "VCC",
+    "out_net": "+3.3V",
+    "variant": "out_open"
+   },
+   "seed": 2026006
+  },
+  {
+   "case_id": "c07",
+   "cls": "RAIL_SHORT",
+   "target": {
+    "nets": [
+     "+1V1"
+    ],
+    "refs": [
+     "C2"
+    ],
+    "pins": [
+     "C2.1"
+    ]
+   },
+   "params": {
+    "rail": "+1V1",
+    "cap": "C2",
+    "r_short": 1.267
+   },
+   "seed": 2026007
+  },
+  {
+   "case_id": "c08",
+   "cls": "RAIL_OPEN",
+   "target": {
+    "nets": [
+     "VBUS",
+     "VCC"
+    ],
+    "refs": [
+     "D1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "D1",
+    "in_net": "VBUS",
+    "out_net": "VCC",
+    "variant": "missing"
+   },
+   "seed": 2026008
+  },
+  {
+   "case_id": "c09",
+   "cls": "SIGNAL_OPEN",
+   "target": {
+    "nets": [
+     "/QSPI_SCLK"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.52"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin": "52",
+    "net": "/QSPI_SCLK"
+   },
+   "seed": 2026009
+  },
+  {
+   "case_id": "c10",
+   "cls": "SIGNAL_OPEN",
+   "target": {
+    "nets": [
+     "/GPIO25"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.37"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin": "37",
+    "net": "/GPIO25"
+   },
+   "seed": 2026010
+  },
+  {
+   "case_id": "c11",
+   "cls": "PIN_BRIDGE",
+   "target": {
+    "nets": [
+     "/GPIO23",
+     "/GPIO24"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.35",
+     "U2.36"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin_a": "35",
+    "pin_b": "36",
+    "net_a": "/GPIO23",
+    "net_b": "/GPIO24",
+    "r_bridge": 0.157
+   },
+   "seed": 2026011
+  },
+  {
+   "case_id": "c12",
+   "cls": "CLOCK_FAIL",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/XoutR"
+    ],
+    "refs": [
+     "Y1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "Y1",
+    "variant": "missing"
+   },
+   "seed": 2026012
+  },
+  {
+   "case_id": "c13",
+   "cls": "RAIL_OPEN",
+   "target": {
+    "nets": [
+     "+3.3V",
+     "+1V1"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "U2",
+    "in_net": "+3.3V",
+    "out_net": "+1V1",
+    "variant": "out_open"
+   },
+   "seed": 2026013
+  },
+  {
+   "case_id": "c14",
+   "cls": "WRONG_VALUE",
+   "target": {
+    "nets": [
+     "/Xin"
+    ],
+    "refs": [
+     "C16"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "C16",
+    "nominal": 2.7e-11,
+    "actual": 2.7e-10,
+    "pull_ppm": 181.5
+   },
+   "seed": 2026014
+  },
+  {
+   "case_id": "c15",
+   "cls": "CLOCK_FAIL",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/XoutR"
+    ],
+    "refs": [
+     "Y1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "Y1",
+    "variant": "cracked"
+   },
+   "seed": 2026015
+  },
+  {
+   "case_id": "c16",
+   "cls": "PIN_BRIDGE",
+   "target": {
+    "nets": [
+     "/GPIO15"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.18",
+     "U2.19"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin_a": "18",
+    "pin_b": "19",
+    "net_a": "/GPIO15",
+    "net_b": "GND",
+    "r_bridge": 0.086
+   },
+   "seed": 2026016
+  },
+  {
+   "case_id": "c17",
+   "cls": "PIN_BRIDGE",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/Xout"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.20",
+     "U2.21"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin_a": "20",
+    "pin_b": "21",
+    "net_a": "/Xin",
+    "net_b": "/Xout",
+    "r_bridge": 0.262
+   },
+   "seed": 2026017
+  },
+  {
+   "case_id": "c18",
+   "cls": "SIGNAL_OPEN",
+   "target": {
+    "nets": [
+     "/Xin"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.20"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin": "20",
+    "net": "/Xin"
+   },
+   "seed": 2026018
+  },
+  {
+   "case_id": "c19",
+   "cls": "RAIL_OPEN",
+   "target": {
+    "nets": [
+     "VCC",
+     "+3.3V"
+    ],
+    "refs": [
+     "U1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "U1",
+    "in_net": "VCC",
+    "out_net": "+3.3V",
+    "variant": "missing"
+   },
+   "seed": 2026019
+  },
+  {
+   "case_id": "c20",
+   "cls": "WRONG_VALUE",
+   "target": {
+    "nets": [
+     "/GPIO25",
+     "/LED_BUILT_IN1"
+    ],
+    "refs": [
+     "R14"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "R14",
+    "nominal": 1000.0,
+    "actual": 10000.0
+   },
+   "seed": 2026020
+  },
+  {
+   "case_id": "c21",
+   "cls": "CLOCK_FAIL",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/XoutR"
+    ],
+    "refs": [
+     "Y1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "Y1",
+    "variant": "missing"
+   },
+   "seed": 2026021
+  },
+  {
+   "case_id": "c22",
+   "cls": "CLOCK_FAIL",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/XoutR"
+    ],
+    "refs": [
+     "Y1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "Y1",
+    "variant": "no_start"
+   },
+   "seed": 2026022
+  },
+  {
+   "case_id": "c23",
+   "cls": "WRONG_VALUE",
+   "target": {
+    "nets": [
+     "/XoutR"
+    ],
+    "refs": [
+     "C17"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "C17",
+    "nominal": 2.7e-11,
+    "actual": 2.7e-10,
+    "pull_ppm": 187.7
+   },
+   "seed": 2026023
+  },
+  {
+   "case_id": "c24",
+   "cls": "CLOCK_FAIL",
+   "target": {
+    "nets": [
+     "/Xin",
+     "/XoutR"
+    ],
+    "refs": [
+     "Y1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "Y1",
+    "variant": "no_start"
+   },
+   "seed": 2026024
+  },
+  {
+   "case_id": "c25",
+   "cls": "PIN_BRIDGE",
+   "target": {
+    "nets": [
+     "/QSPI_SD1",
+     "/QSPI_SS"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.55",
+     "U2.56"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin_a": "55",
+    "pin_b": "56",
+    "net_a": "/QSPI_SD1",
+    "net_b": "/QSPI_SS",
+    "r_bridge": 0.229
+   },
+   "seed": 2026025
+  },
+  {
+   "case_id": "c26",
+   "cls": "RAIL_SHORT",
+   "target": {
+    "nets": [
+     "+3.3V"
+    ],
+    "refs": [
+     "C14"
+    ],
+    "pins": [
+     "C14.1"
+    ]
+   },
+   "params": {
+    "rail": "+3.3V",
+    "cap": "C14",
+    "r_short": 0.31
+   },
+   "seed": 2026026
+  },
+  {
+   "case_id": "c27",
+   "cls": "RAIL_SHORT",
+   "target": {
+    "nets": [
+     "+3.3V"
+    ],
+    "refs": [
+     "C4"
+    ],
+    "pins": [
+     "C4.1"
+    ]
+   },
+   "params": {
+    "rail": "+3.3V",
+    "cap": "C4",
+    "r_short": 1.214
+   },
+   "seed": 2026027
+  },
+  {
+   "case_id": "c28",
+   "cls": "RAIL_SHORT",
+   "target": {
+    "nets": [
+     "+1V1"
+    ],
+    "refs": [
+     "C3"
+    ],
+    "pins": [
+     "C3.1"
+    ]
+   },
+   "params": {
+    "rail": "+1V1",
+    "cap": "C3",
+    "r_short": 1.527
+   },
+   "seed": 2026028
+  },
+  {
+   "case_id": "c29",
+   "cls": "RAIL_OPEN",
+   "target": {
+    "nets": [
+     "VBUS",
+     "VCC"
+    ],
+    "refs": [
+     "D1"
+    ],
+    "pins": []
+   },
+   "params": {
+    "ref": "D1",
+    "in_net": "VBUS",
+    "out_net": "VCC",
+    "variant": "open"
+   },
+   "seed": 2026029
+  },
+  {
+   "case_id": "c30",
+   "cls": "SIGNAL_OPEN",
+   "target": {
+    "nets": [
+     "/USB_R_DP"
+    ],
+    "refs": [
+     "U2"
+    ],
+    "pins": [
+     "U2.47"
+    ]
+   },
+   "params": {
+    "ref": "U2",
+    "pin": "47",
+    "net": "/USB_R_DP"
+   },
+   "seed": 2026030
+  }
+ ]
+}
