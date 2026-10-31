@@ -6,8 +6,6 @@ When the first prototype boards come back from assembly, some of them don't work
 
 The claim is backed by a benchmark. 30 known faults (6 classes × 5) are injected into a simulated [Easyduino RP2040](https://github.com/Hanqaqa/Easyduino) board. Three triage methods get identical inputs and an identical budget of 4 extra probes. Each is scored on whether it names the broken net first (top-1), within its first three guesses (top-3), and how many simulated bench-seconds it spends.
 
-Built at *Haunted Hacks: Real-Time AI Edition* (Y Combinator, San Francisco, 31 October 2026).
-
 ![Dashboard on case c09: rules triage names an open QSPI clock pin on U2, with probes 1–4 on the QSPI test points](docs/dashboard_c09.png)
 
 ## Contents
@@ -398,14 +396,6 @@ Production test beyond bring-up is out of scope: ICT and flying probe, boundary 
 - A rules baseline written blind to the fixture.
 - Real UART output from firmware running in Renode.
 - More boards (Easyduino UNO, Cicada-HW) and real first-article boards.
-
-## Demo script (3 minutes)
-
-1. `make dev`, open http://localhost:5173. The badge shows **LIVE**.
-2. Case **c09**, method `rules`: Run panel, then Triage. S5 shows `QSPI_SCLK` floating, S8 shows `RP2 Boot`, and #1 is SIGNAL_OPEN on `/QSPI_SCLK` (U2) with probes 1–4 on the QSPI test points. Tick "reveal injected fault".
-3. Case **c20**: the LED blinks dim, and rules name R14 as WRONG_VALUE with zero probes.
-4. Case **c16** (GPIO15 bridged to GND): the panel is all green, and rules spend 4 probes and miss. This is where the agent's `adjacent_pins` tool should matter.
-5. Bottom panel: benchmark table, per-class bars, verdict line. Click "Run benchmark (live)" to watch the `BenchmarkRun` actor step through cases.
 
 ## Credits and licenses
 
