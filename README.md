@@ -6,7 +6,6 @@ When the first prototype boards come back from assembly, some of them don't work
 
 The claim is backed by a benchmark. 30 known faults (6 classes × 5) are injected into a simulated [Easyduino RP2040](https://github.com/Hanqaqa/Easyduino) board. Three triage methods get identical inputs and an identical budget of 4 extra probes. Each is scored on whether it names the broken net first (top-1), within its first three guesses (top-3), and how many simulated bench-seconds it spends.
 
-![Uploading Screenshot 2026-10-31 at 4.00.48 PM.png…]()
 
 
 ## Contents
