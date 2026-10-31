@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PCBA Bring-up Triage</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">◈</span>
+      <div>
+        <div class="title">Bring-up Triage</div>
+        <div class="sub" id="board-name">loading board…</div>
+      </div>
+    </div>
+    <div class="controls">
+      <label>case <select id="case"></select></label>
+      <label>method <select id="method">
+        <option value="rules">rules</option><option value="agent">agent</option><option value="none">none</option>
+      </select></label>
+      <button id="btn-panel">Run panel</button>
+      <button id="btn-probe" title="take the top hypothesis' next probe">Probe next</button>
+      <button id="btn-triage" class="primary">Triage</button>
+      <label class="toggle"><input type="checkbox" id="reveal" /> reveal injected fault</label>
+      <span id="mode" class="mode">MOCK</span>
+    </div>
+  </header>
+
+  <main class="grid">
+    <aside class="panel left">
+      <h2>Bring-up stages</h2>
+      <ol id="stages" class="stages"></ol>
+    </aside>
+
+    <section class="panel center">
+      <div class="center-head">
+        <h2>Board</h2>
+        <div class="legend">
+          <span><i class="sw heat-lo"></i>low</span><span><i class="sw heat-hi"></i>likely fault</span>
+          <span><i class="sw tp"></i>test point</span><span><i class="sw probe"></i>probe</span><span><i class="sw truth"></i>injected</span>
+        </div>
+      </div>
+      <div id="board-wrap"><svg id="board" role="img" aria-label="PCB with fault likelihood"></svg></div>
+      <div id="hover" class="hover">hover a part</div>
+    </section>
+
+    <aside class="panel right">
+      <h2>Hypotheses</h2>
+      <ol id="hyps" class="hyps"><li class="empty">Run triage to rank faults.</li></ol>
+      <h2>Probe log</h2>
+      <ol id="probes" class="probes"><li class="empty">No extra probes yet.</li></ol>
+    </aside>
+
+    <section class="panel bottom">
+      <div class="bench-head">
+        <h2>Benchmark <span id="run-id" class="muted"></span></h2>
+        <div class="bench-actions">
+          <span id="bench-progress" class="muted"></span>
+          <button id="btn-bench" title="live mode: run none+rules through the BenchmarkRun actor">Run benchmark (live)</button>
+        </div>
+      </div>
+      <div id="verdict" class="verdict"></div>
+      <div class="bench-grid">
+        <table id="bench-table" class="bench"></table>
+        <div id="class-bars" class="bars"></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
