@@ -125,6 +125,21 @@ This does not replace production test. It covers the step before production test
 
 `make bench` needs only the Python core. The dashboard, gateway and actors are the live demo layer.
 
+
+
+flowchart TD
+    A["Import KiCad PCB"] --> B["Build board connectivity graph"]
+    B --> C["Collect bring-up measurements"]
+    C --> D["Generate candidate faults"]
+    D --> E["Select highest-information probe"]
+    E --> F["Measure real or simulated board"]
+    F --> G["Update fault probabilities"]
+    G --> H{"Diagnosis sufficiently supported?"}
+    H -->|No| E
+    H -->|Yes| I["Report fault, evidence and confidence"]
+
+
+
 ## Tech stack
 
 | Layer | Technology (version) | What it does here | Why |
